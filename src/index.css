@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  text-align: center;
+}
+
+.add-input {
+  outline: none;
+  padding: 10px;
+  width: 50%;
+  background: rgb(222, 223, 223);
+  border: none;
+  border-radius: 20px;
+}
+.update-input {
+  outline: none;
+  padding: 10px;
+  width: 20%;
+  border: none;
+}
+
+.btn {
+  background: none;
+  padding: 5px;
+  border: 1px gray solid;
+  outline: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.btn:hover {
+  background: rgb(195, 190, 190);
+  cursor: pointer;
+}
+
+.button {
+  margin-bottom: 50px;
+}
+
+.add {
+  margin-top: 20px;
+}
