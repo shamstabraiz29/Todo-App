@@ -15,7 +15,6 @@ function App() {
     },
   ]);
 
-
   // Add Todo
 
   const addList = (title) => {
@@ -28,7 +27,6 @@ function App() {
   const updateInput = (e, index) => {
     const newlists = [...items];
     newlists[index].title = e.target.value;
-    console.log(e.target.value);
     setitems(newlists);
   };
 
@@ -56,7 +54,7 @@ function App() {
     setitems(newlists);
   };
 
-  // Update Tod
+  // Update Todo
 
   const updateList = (index) => {
     const newlists = [...items];

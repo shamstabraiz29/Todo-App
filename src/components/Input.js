@@ -7,11 +7,11 @@ export default function Input({ addList }) {
     e.preventDefault();
     if (!value) return;
     addList(value);
-    setValue("");
+    setValue(""); 
   };
 
   return (
-    <div>
+    <div> 
       <form>
         <input
           type="text"

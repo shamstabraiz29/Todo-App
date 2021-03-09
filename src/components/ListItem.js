@@ -10,8 +10,8 @@ function ListItem({
   updateInput,
 }) {
   return (
-    <>
-      <div style={{ textDecoration: item.completed ? "line-through" : "" }}>
+   
+      <div className ="map-item" style={{ textDecoration: item.completed ? "line-through" : "" }}>
         {item.edit ? (
           <input
             className ="update-input"
@@ -40,7 +40,6 @@ function ListItem({
         </div>
         <br></br>
       </div>
-    </>
   );
 }
 export default ListItem;

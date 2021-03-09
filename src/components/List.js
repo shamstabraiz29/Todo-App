@@ -13,7 +13,7 @@ function List({
 }) {
   return (
     <div>
-      <div>
+      <div className="map-list">
         {items.map((item, index) => (
           <ListItem
             item={item}
