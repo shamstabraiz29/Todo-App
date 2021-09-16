@@ -19,7 +19,7 @@ function App() {
 
   const addList = (title) => {
     const newList = [...items, { title, completed: false }];
-    setitems(newList);
+    setitems(newList); 
   };
 
   // update Todo Input
